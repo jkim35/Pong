@@ -4,7 +4,7 @@ public class PongBall {
     private double YVelocity;
     private double Y;
     private double Momentum;
-    public PongBall(double initXVelocity, double initX, double initYVelocity, double initY) {
+    public PongBall(double initX, double initY,double initXVelocity, double initYVelocity) {
         XVelocity = initXVelocity;
         X = initX;
         YVelocity = initYVelocity;
